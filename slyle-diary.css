@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  background: #f4f6fb;
+}
+
+/* Header */
+header {
+    background: #0d2c54;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav a.active,
+nav a:hover {
+  color: #f5b800;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+}
+
+h2 {
+  color: #0d2c54;
+}
+
+/* Week selector */
+.week-select {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.week-select select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+/* Marks table */
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.marks-table th {
+  background: #f5b800;
+  color: #0d2c54;
+  padding: 14px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.marks-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-size: 15px;
+}
+
+.marks-table tr:hover {
+  background: #faf3cc;
+}
+
+.avg {
+  font-weight: 700;
+  color: #0d2c54;
+  background: #fff7d1;
+}

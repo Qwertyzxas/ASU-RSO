@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background: #f4f6fb;
+}
+
+/* Header */
+header {
+    background: #0d2c54;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #f5b800;
+}
+
+/* Profile card */
+.profile-card {
+    max-width: 500px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.info {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 1.7;
+}

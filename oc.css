@@ -1,0 +1,122 @@
+/* Общий стиль */
+body {
+  margin: 0;
+  background: #f3f6fb;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Шапка */
+.header {
+  background: #0d2c54;
+  color: white;
+  padding: 28px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.nav a.active,
+.nav a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Контент */
+.content {
+  width: 90%;
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  color: #003b72;
+}
+
+/* Блок с данными ученика */
+.student-box {
+  background: #eaf0f9;
+  padding: 12px 15px;
+  border-left: 4px solid #003b72;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Таблица итогов */
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.grades-table th {
+  background: #003b72;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.grades-table td {
+  padding: 10px;
+  border-bottom: 1px solid #d9dce5;
+  font-size: 14px;
+  text-align: center;
+}
+
+.grades-table td:first-child,
+.grades-table th:first-child {
+  text-align: left;
+}
+
+/* Оценки */
+.grade {
+  font-weight: bold;
+}
+
+.grade-5 {
+  color: #2e8b57;
+}
+.grade-4 {
+  color: #1e90ff;
+}
+.grade-3 {
+  color: #ff8c00;
+}
+.grade-2 {
+  color: #cc0000;
+}
+
+/* Средний балл */
+.avg {
+  font-weight: bold;
+}
+
+.avg-good {
+  color: #2e8b57;
+}
+.avg-mid {
+  color: #ff8c00;
+}
+.avg-low {
+  color: #cc0000;
+}
